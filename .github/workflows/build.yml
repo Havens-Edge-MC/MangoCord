@@ -24,8 +24,8 @@ jobs:
           distribution: 'adopt'
       - name: patch
         run: |
-          git config --global user.email "no-reply@github.com"
-          git config --global user.name "Github Actions"
+          git config --global user.email "id_cn00@outlook.com"
+          git config --global user.name "HaHaWTH"
           ./mangocord p
       - name: build
         run: mvn clean install javadoc:javadoc -B
